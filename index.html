@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Annual Dance Competition</title>
+        <style>
+            form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                border: 2px solid violet;
+                padding: 20px;
+                background-color: tomato;
+            }
+            .style1{
+                color: yellowgreen;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                padding-top: -10px;
+            }
+            .style2{
+                color: wheat;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="style1"> Dance Competition</h1>
+        <form>
+            <label>Name Of Participant</label>
+            <input type="text">
+            <br><br>
+            <label>Name Of Parent/Guardian</label>
+            <input type="text">
+            <br><br>
+            <label>Age(10-18)</label>
+            <input type="number" min="10" max="18">
+            <br><br>
+            <label>Gender</label>
+            <input type="radio"  name="gender" value="MALE">MALE
+            <input type="radio"  name="gender" value="FEMALE">FEMALE
+            <input type="radio"  name="gender" value="OTHERS">OTHERS
+            <br><br>
+            <label>Type Of Dance</label>
+            <input type="radio"  name="Type Of Dance" value="CLASSICAL">CLASSICAL
+            <input type="radio"  name="Type Of Dance" value="WESTERN">WESTERN
+            <input type="radio"  name="Type Of Dance" value="FOLK">FOLK
+            <br><br>
+            <label>How Much Would You Rate Yourself In Dance(5-10)</label>
+            <input type="range" min="5" max="10">
+            <br><br>           
+            <p>Dance is a performing art form consisting of sequences of movement, either improvised or purposefully selected. This movement has aesthetic and often symbolic value.</p>
+            <a href="https://en.wikipedia.org/wiki/Dance">Click here to know more about dance</a>
+            <br><br>
+            <input type="button" value="SUBMIT" class="style1">
+        </form>
+    </body>
+</html>
